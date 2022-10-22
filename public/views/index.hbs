@@ -5,13 +5,13 @@
         <div class="fs-3 text-success">Bienvenido <span class="text-primary fw-semibold fs-4 ">{{user}}</span>
             <img src="{{userAvatar}}" alt="thumbnail" class="rounded-pill" width="75px">
         </div>
-            <div>
-                <a class="btn btn-success" href="/productos">Home</a>
-                <a class="btn btn-primary" href="/user">Perfil</a>
-                <a class="btn btn-outline-primary" href="/chat">CHAT</a>
-                <a class="btn btn-warning" href="/user/carrito">Carrito</a>
-            </div>
-                <button class="btn btn-outline-danger" id="btnLogout">Logout</button>
+        <div>
+            <a class="btn btn-success" href="/productos">Home</a>
+            <a class="btn btn-primary" href="/user">Perfil</a>
+            <a class="btn btn-outline-primary" href="/chat">CHAT</a>
+            <a class="btn btn-warning" href="/user/carrito">Carrito</a>
+        </div>
+        <button class="btn btn-outline-danger" id="btnLogout">Logout</button>
     </div>
 </div>
 {{#if isAdmin}}
@@ -43,7 +43,6 @@
 {{>footer}}
 
 <script defer src="../js/index.js"></script>
-<script defer src="../js/prod-cards-actions.js"></script>
 {{#if isAdmin}}
 <script defer src="../js/products-isAdmin.js"></script>
 {{/if}}
