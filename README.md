@@ -44,16 +44,20 @@ npm start -- -p 8081 -m CLUSTER
     * GET `"/productos/:categoria?"` : SSR - HBS || View - Vista de productos por categoria
     <br>
     <br>
+    
     * GET `"/signup"` : SSR - HBS || View - Vista de registro para nuevos usuarios
     * POST `"/signup"` : SSR - HBS || View - Registrar usuario nuevo - view/form/json
     * GET `"/failsignup"` : SSR - HBS || View - Error al registrar usuarios
+    
     <br>
     <br>
+    
     * GET `"/login"` : SSR - HBS || View - Vista de login para usuarios en DB
     * POST `"/login"` : SSR - HBS || View - Login usuario en DB - view/form/json
     * GET `"/faillogin"` : SSR - HBS || View - Error en login usuario
+    
     <br>
-    <br>
+    
     * GET `"/logout"` : SSR - HBS || View - Logout de usuario en sesion, borrado de cookies del sitio
 
     <br>
